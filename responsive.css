@@ -76,6 +76,9 @@
 }
 
 @media only screen and (max-width: 468px){
+    .formWrapper {
+        margin-bottom: 25px;
+    }
     .headerLogo img {
         width: 60px;
         margin-top: 15px;
