@@ -37,6 +37,10 @@
 .headerContent h1 span{
     color: #018D3F;  
 }
+section.footerSection.text-center a {
+    margin-right: 5px;
+    margin-left: 5px;
+}
 .form-control,
 .form-select  {
     border: 1px solid #ced4da;

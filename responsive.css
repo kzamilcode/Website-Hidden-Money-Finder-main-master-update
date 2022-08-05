@@ -20,18 +20,19 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .form-group.d-flex.mb-3.fromBlock,
+    select.form-select.mb-3  {
+        margin-bottom: 10px !important;
+    }
+
     .fromBlock.form-group.d-sm-flex.mb-2 {
         display: flex;
     }
-    select.form-select {
-        margin-bottom: 10px;
-    }
+   
     select.form-select.formMargin {
-        margin: 0;
+        margin: 0 8px;
     }
-    select.form-select.sideBySide.formMargin {
-        margin-bottom: 10px;
-    }
+   
     input.form-control.mb-3 {
         margin-bottom: 10px !important;
     }
@@ -82,11 +83,16 @@
     
         width: 90%;
     }
-  
+   
    
 }
 
 @media only screen and (max-width: 468px){
+
+    select.form-select.nMargin.mb-3 {
+        margin-bottom: 10px !important;
+    }
+   
     .formWrapper {
         margin-bottom: 25px;
     }
@@ -125,9 +131,7 @@
         display: flex;
        
     }
-    .form-group.sideBySide input{
-        margin-right: 3px;
-    }
+  
     .headerContent.headerContentTwo.mt-3 {
       
         padding: 0 8px;
